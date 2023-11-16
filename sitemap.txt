@@ -1,0 +1,9 @@
+https://checklist.sirenwatcher.dev/
+https://checklist.sirenwatcher.dev/security/
+https://checklist.sirenwatcher.dev/images/checklist.svg
+https://checklist.sirenwatcher.dev/images/accessibility/
+https://checklist.sirenwatcher.dev/images/coding/
+https://checklist.sirenwatcher.dev/images/indexing/
+https://checklist.sirenwatcher.dev/images/security/
+https://checklist.sirenwatcher.dev/images/speed/
+https://checklist.sirenwatcher.dev/images/usability/

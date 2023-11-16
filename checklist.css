@@ -1,0 +1,135 @@
+.center {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: ;
+  color: rgb(178, 0, 0);
+  text-align: center;
+  padding-top: 40px;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(178, 0, 0);
+}
+
+a {
+  color: rgb(178, 0, 0);
+  text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgba(0, 144, 118, 0.35);
+  object-fit: cover;
+  width: 100vw;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgba(0, 144, 118, 0.35);
+  object-fit: cover;
+  width: 100vw;
+  margin: auto;
+  padding: 20px;
+}
+
+nav span {
+  padding: 80px;
+  font-size: 18px;
+  background: rgba(0, 144, 118, 0.75);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  shape-outside: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  -webkit-shape-outside: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+nav span:hover {
+  padding: 80px;
+  font-size: 18px;
+  background: rgb(46,54,69);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  shape-outside: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  -webkit-shape-outside: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+th {
+  background: linear-gradient(rgba(0, 144, 118, 0.7), rgb(178, 0, 0));
+  color: white;
+}
+
+th, tr, td {
+  border: 3px groove rgba(0, 144, 118, 0.75);
+  padding: 15px 15px 15px 15px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  border: 2px solid rgb(178, 0, 0);
+}
+
+main {
+  text-wrap: balance;
+  padding: 50px;
+}
+
+body {
+  text-wrap: balance;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  height: 100dvh;
+  scrollbar-color: rgb(178, 0, 0) rgb(46,54,69); /* Gecko */
+  scrollbar-width: thin; /* Gecko */
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar { /* Chromium */
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track { /* Chromium */
+  background: rgba(0, 144, 118, 0.75);
+  box-shadow: inset 1px 1px 5px black ;
+}
+
+html::-webkit-scrollbar-thumb { /* Chromium */
+  background: linear-gradient(0deg, rgb(178, 0, 0), rgba(0, 144, 118, 0.75));
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover { /* Chromium */
+  background: linear-gradient(0deg, rgb(178, 0, 0), rgba(0, 144, 118, 0.75));
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:active { /* Chromium */
+  background: linear-gradient(0deg, rgb(178, 0, 0), rgba(0, 144, 118, 0.75));
+  border-radius: 10px;
+}
